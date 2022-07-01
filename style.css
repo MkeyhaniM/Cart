@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Yekan";
+    src: url("Yekan.ttf");
+}
+
+table {
+    font-family: Yekan;
+}
+
+#parent {
+    margin-right: 10px;
+    width: 820px;
+}
+
+#sec {
+    margin-right: 10px;
+    float: right;
+}
+
+#tableListBuy {
+    display: inline-block;
+    margin-top: 97px;
+}
+
+
+#tableListBuy #parentList table tr {
+    height: 53px;
+    line-height: 28px;
+}
+
+.countContact {
+    display: inline !important;
+}
+
+.textTable {
+    font-size: 19px;
+}
+
+.count0 {
+    width: 200px;
+}
+
+.count1 {
+    width: 120px !important;
+}
+
+.count1 input {
+    width: 60px !important;
+}
+
+.count2 {
+    width: 130px;
+}
+
+.count3 {
+    width: 160px;
+}
+
+.count3 button {
+    margin: 0 auto;
+}
+
+.points {
+    width: 50px !important;
+}
+
+.dateTh {
+    width: 140px !important;
+    direction: ltr !important;
+}
