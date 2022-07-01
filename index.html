@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>سبد خرید کاربر</title>
+</head>
+<body class="col">
+
+<section class="col-xl-6 shadow-md" id="sec" style="direction: rtl">
+    <div id="border" class=" border border-secondary mt-5 p-5" style="border-radius: 9px 9px 9px 9px">
+        <div id="fn" class="form-group row" style="direction: rtl">
+            <div class="col-lg-5">
+                <h2 class="h4" style="float: right">
+                    نام کامل خود را وارد کنید :
+                </h2>
+            </div>
+            <div class="col-lg-7">
+                <input type="text" class="form-control ml-2" placeholder="مهیار کیهانی" id="takeFirstLestName">
+            </div>
+        </div>
+        <div class="mt-5" style="float: right">
+            <button id="btn2" class="active btn btn-outline-primary text-capitalize mt-5">
+                رفتن به سبد خرید
+            </button>
+        </div>
+    </div>
+    <div class="input-group row" id="getdiscription" style="display: none">
+        <div class="form-inline col-lg-8 form-group mt-2">
+            <span class="ml-2 h3">لیست خرید</span>
+        </div>
+        <div class="" id="parent">
+            <table class="table table-bordered table-hover table-responsive-xl  mt-5 table-striped">
+                <thead class="thead-dark">
+                <tr style="text-align: right">
+                    <th style="width: 70px;">ردیف</th>
+                    <th>محصولات</th>
+                    <th>تعداد</th>
+                    <th>وضعیت</th>
+                    <th>افزودن</th>
+                    <th>قیمت</th>
+                </tr>
+                </thead>
+                <tbody id="theadTable" style="text-align: right"></tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<div id="tableListBuy" class="col-xl-5">
+    <div id="parentList">
+        <table style="direction: rtl;text-align: right" class="table table-bordered">
+            <thead class="table-dark">
+            <tr>
+                <th style="width: 70px">ردیف</th>
+                <th>نام محصول</th>
+                <th>تخفیف</th>
+                <th>تاریخ</th>
+                <th>مبلغ کل</th>
+            </tr>
+            </thead>
+            <tbody id="tbodyTableListBuy">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="jquery-3.2.1.slim.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="getToBuy.js"></script>
+
+</body>
+</html>
